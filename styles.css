@@ -1,0 +1,126 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: 'Arial', serif;
+    box-sizing: border-box;
+}
+
+.main-section {
+    margin: 0 auto;
+    max-width: 720px;
+}
+
+
+#hero {
+    background-image: url(/images/torshov.jpg);
+    background-size: cover;
+    /* background-position: center; */
+    height: 343px;
+    /* max-width: 720px; */
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    /* font-weight: bold; */
+}
+
+#hero h1 {
+    background: #1D3557;
+    border-radius: 10px;
+    padding: 5px 12px;
+    margin: 0 auto 11px;
+}
+
+#hero h2 {
+    background: #457B9D;
+    border-radius: 10px;
+    padding: 5px 0px;
+    max-width: 412px;
+    font-size: 19px;
+    margin: 0 auto;
+}
+
+#activities-section {
+    background-color: #F1FAEE;
+    overflow: hidden;
+    color: #1D3557;
+    padding: 40px 0 36px;
+}
+
+#activities-section h2 {
+    margin: 0 auto 50px;
+}
+
+.activity-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.activity {
+    flex: 1;
+    max-width: 200px;
+}
+
+.activity h4 {
+    margin-bottom: 15px;
+}
+
+.activity p {
+    font-size: 16px;
+    margin: 0;
+}
+
+.activity-img {
+    width: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+#guide-section {
+    padding: 50px 0;
+}
+
+#guide-container {
+    max-width: 400px;
+    box-sizing: border-box;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0 6px #1D3557;
+    background-color: #A8DADC;
+    color: #1D3557;
+    padding: 23px 13px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#guide-img {
+    width: 180px;
+}
+
+#guide-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 190px;
+}
+
+#guide-text p {
+    font-style: italic;
+    margin: 0;
+}
